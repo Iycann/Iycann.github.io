@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarea 4</title>
+    <link rel="stylesheet" type="text/css" href="CSS/estilo_tarea4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="Imagenes/osoFime.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="index.html" title="Inicio">Inicio</a>
+          </li>
+
+          <li>
+            <a href="personal.html" title="Personal">Personal</a>
+            <ul class="submenu">
+              <li>
+                <a href="biografia.html" class="texto-submenu-2">Biografia</a>
+              </li>
+              <li>
+                <a
+                  href="pasatiempos.html"
+                  class="texto-submenu-2"
+                  title="Pasatiempos"
+                  >Pasatiempos</a
+                >
+                <ul class="submenu2">
+                  <li>
+                    <a href="futbol.html" class="texto-submenu-2">Futbol</a>
+                  </li>
+                  <li>
+                    <a href="videojuegos.html" class="texto-submenu-2"
+                      >Videojuegos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="musica.html" class="texto-submenu-2"
+                      >Escuchar musica</a
+                    >
+                  </li>
+                  <li>
+                    <a href="amigos.html" class="texto-submenu-2"
+                      >Salir con amigos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="lego.html" class="texto-submenu-2">Lego</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="tareas.html">Tarea</a>
+            <ul class="submenuTarea">
+              <li>
+                <a href="tarea1.html" class="texto-submenu-2">Tarea 1</a>
+                <a href="tarea2.html" class="texto-submenu-1">Tarea 2</a>
+                <a href="tarea3.html" class="texto-submenu-2">Tarea 3</a>
+                <a href="tarea4.html" class="texto-submenu-1">Tarea 4</a>
+                <a href="tarea5.html" class="texto-submenu-2">Tarea 5</a>
+                <a href="tarea6.html" class="texto-submenu-1">Tarea 6</a>
+                <a href="tarea7.html" class="texto-submenu-2">Tarea 7</a>
+                <a href="tarea8.html" class="texto-submenu-1">Tarea 8</a>
+                <a href="tarea9.html" class="texto-submenu-2">Tarea 9</a>
+                <a href="tarea10.html" class="texto-submenu-1">Tarea 10</a>
+                <a href="tarea11.html" class="texto-submenu-2">Tarea 11</a>
+                <a href="tarea12.html" class="texto-submenu-1">Tarea 12</a>
+                <a href="tarea13.html" class="texto-submenu-2">Tarea 13</a>
+                <a href="tarea14.html" class="texto-submenu-1">Tarea 14</a>
+                <a href="tarea15.html" class="texto-submenu-2">Tarea 15</a>
+                <a href="tarea16.html" class="texto-submenu-1">Tarea 16</a>
+                <a href="tarea17.html" class="texto-submenu-2">Tarea 17</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <p class="line"></p>
+
+    <div class="contenedor-texto">
+      <div>
+        <div class="opacidadTitulo">
+        <h1>T A R E A # 4</h1>
+        </div>
+
+        <h2>Compilador e Interperete</h2>
+
+        <h3>Compilador</h3>
+        <p>
+         Un compilador es una herramienta de software que se utiliza en programación para traducir 
+         el código fuente de un programa escrito en un lenguaje de programación de alto nivel a un código 
+         objeto o ejecutable en lenguaje de máquina, que es comprendido y ejecutado por una computadora. 
+         Los compiladores desempeñan un papel fundamental en el proceso de desarrollo de software y tienen 
+         varias ventajas y usos importantes:
+        </p>
+
+        <h4>Origen de Utilizar un Compilador en Programación:</h4>
+
+        <p>
+         El origen de la utilización de compiladores en programación se remonta a la necesidad de traducir
+        el código escrito por los programadores en lenguaje de alto nivel a un formato que una computadora 
+          pudiera entender y ejecutar eficientemente. El desarrollo de compiladores permitió abstraer la complejidad 
+          de la máquina subyacente y facilitó la programación en lenguajes más legibles y expresivos.
+        </p>
+
+        <h4>Tipos de compiladores:</h4>
+
+        <p> 
+         <ul class="listaLenguajes">
+            <li>
+                <p>
+                <b>Compiladores de un solo paso: </b>Estos compiladores traducen el código fuente directamente 
+                a código objeto en un solo paso, generando el archivo ejecutable en un solo proceso.
+                </p>
+            </li>
+            <li>
+                <p>
+                <b>Compiladores de múltiples pasos: </b>En estos compiladores, el proceso de traducción 
+                se divide en varias fases, cada una de las cuales realiza una tarea específica, como 
+                análisis léxico, análisis sintáctico, generación de código intermedio, etc. Esto permite 
+                un mayor control sobre la optimización y la detección de errores.
+                </p>
+            </li>
+            <li>
+                <p>
+                <b>Compiladores front-end y back-end: </b>Los compiladores suelen dividirse en dos partes 
+                principales: el front-end y el back-end. El front-end se encarga del análisis del código 
+                fuente y la generación del árbol de sintaxis abstracta, mientras que el back-end se encarga 
+                de la generación del código máquina. Esta división permite que un front-end pueda ser 
+                reutilizado con diferentes back-ends para generar código para diferentes arquitecturas de hardware.
+                </p>
+            </li>
+         </ul>
+        </p>
+
+        <img class="lenguajes" src="Imagenes/compilador.jpg" />
+
+        <h3>Interprete</h3>
+        
+        <p>
+         Un intérprete es una herramienta de software utilizada en programación para ejecutar directamente 
+         el código fuente escrito en un lenguaje de programación de alto nivel. A diferencia de un compilador, 
+         que traduce todo el código fuente a código máquina antes de la ejecución, un intérprete ejecuta el código 
+         línea por línea o instrucción por instrucción en tiempo real. Los intérpretes tienen su propio conjunto 
+         de ventajas y aplicaciones en programación:
+        </p>
+
+        <h4>Origen de Utilizar un Intérprete en Programación:</h4>
+
+        <p>
+         El origen de la utilización de intérpretes en programación se encuentra en la necesidad de ejecutar
+         código de manera más interactiva y en tiempo real. Los intérpretes permiten una depuración más ágil 
+         y facilitan la experimentación con código.
+        </p>
+
+        <h4>Tipos de interpretes:</h4>
+
+        <p>
+         <ul class="listaLenguajes">
+            <li>
+                <p>
+                <b>Intérpretes de línea de comandos:  </b>Estos intérpretes ejecutan código proporcionado 
+                en una interfaz de línea de comandos. Ejemplos incluyen el intérprete de Python y la 
+                consola de JavaScript.
+                </p>
+            </li>
+            <li>
+                <p>
+                <b>Intérpretes integrados: </b>Algunos lenguajes, como JavaScript en un navegador web, 
+                tienen intérpretes integrados en su entorno de ejecución. Esto permite la ejecución de 
+                scripts directamente en una aplicación o navegador.
+                </p>
+            </li>
+            <li>
+                <p>
+                <b>Intérpretes JIT (Just-In-Time):  </b>Estos intérpretes realizan una compilación 
+                Just-In-Time, lo que significa que traducen partes del código fuente en código máquina 
+                durante la ejecución para mejorar el rendimiento.
+                </p>
+            </li>
+         </ul>
+        </p>
+
+        <img class="interprete" src="Imagenes/interprete.gif">
+
+      </div>
+    </div>
+
+    <nav class="centrarBotones">
+      <ul class="botonesRegreso">
+        <li>
+          <a href="tarea3.html"><i class="fa fa-chevron-left"></i></a>
+          <p>Tarea 3</p>
+        </li>
+
+        <li>
+          <a href="tareas.html"><i class="fa fa-home"></i></a>
+          <p>Menu Tareas</p>
+        </li>
+
+        <li>
+          <a href="tarea5.html"><i class="fa fa-chevron-right"></i></a>
+          <p>Tarea 5</p>
+        </li>
+      </ul>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa fa-angle-up"></i>
+    </button>
+
+    <p class="line"></p>
+
+    <footer>
+      <div class="footerContainer">
+        <div class="socialIcon">
+          <a href="https://www.facebook.com/profile.php?id=100009708439072"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/emilianomvs/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/Iycaan"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCpPHn1rpLxApryL86WvEizw"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+
+        <br />
+
+        <div class="footerNav">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="personal.html">Sobre mi</a>
+            </li>
+            <li>
+              <a href="">Contactame</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footerBottom">
+        <p>
+          Disenado por
+          <span class="designer"></span>Emiliano Salinas Monsivais
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      let mybutton = document.getElementById('myBtn')
+
+      window.onscroll = function () {
+        scrollFunction()
+      }
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = 'block'
+        } else {
+          mybutton.style.display = 'none'
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0
+        document.documentElement.scrollTop = 0
+      }
+    </script>
+  </body>
+</html>
